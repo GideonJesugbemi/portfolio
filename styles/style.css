@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .section1 {
@@ -24,6 +24,8 @@
   top: 0;
   overflow-x: hidden;
   right: 0;
+  margin: 10px 0;
+  padding: 12px 24px;
 }
 
 .background-image {
@@ -36,6 +38,10 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
+}
+
+.taiwo-oke, .taiwo-isale{
+  display: none;
 }
 
 .text-center {
@@ -55,7 +61,7 @@
   margin: 3rem 2rem;
 }
 
-.header-button {
+.header-button, .download-button {
   color: #000;
   background-color: #f1f1f1;
   padding: 12px 24px;
@@ -126,7 +132,7 @@
 }
 
 .image-container {
-  width: 470px;
+  width: 375px;
 }
 
 .wedd-image {
@@ -214,12 +220,12 @@
 }
 
 .cam-code {
-  padding: 10px;
+  padding: 10px 0px;
 }
 .box-grid {
   display: grid;
-  grid-template-columns: 950px 50px;
-  padding: 15px;
+  grid-template-columns: 95% 5%;
+  padding: 15px 0px;
 }
 
 .box-1 {
@@ -233,13 +239,13 @@
 }
 
 .word-press {
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 .box-cont {
   display: grid;
-  grid-template-columns: 850px 150px;
-  padding: 15px;
+  grid-template-columns: 85% 15%;
+  padding: 15px 0px;
 }
 
 .box-3 {
@@ -262,13 +268,13 @@
 }
 
 .corel-draw {
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 .box-house {
   display: grid;
-  grid-template-columns: 800px 200px;
-  padding: 15px;
+  grid-template-columns: 80% 20%;
+  padding: 15px 0px;
 }
 
 .box-5 {
@@ -284,17 +290,17 @@
 .ratings {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding: 15px;
+  padding: 15px 0px;
 }
 
-/* .ratio {
+.ratio {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 30px;
-} */
+}
 .people {
   height: 125px;
   background-color: #616161;
@@ -400,7 +406,8 @@
 
 .apapa {
   padding: 0 8px;
-  margin: 16px;
+  /* margin: 10px; */
+  margin: 0 -12px;
   color: #757575;
   width: 100%;
   transition: 0.5s;
@@ -543,4 +550,70 @@
   font-weight: 400;
   color: #757575;
   padding-bottom: 10px;
+}
+
+.map-image{
+  max-width: 100%;
+  height: 517px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  filter: grayscale(75%);
+}
+
+#basin{
+  padding: 10px;
+  font-size: 27px;
+  margin-right: 16px;
+  color: #757575;
+}
+.mosa{
+  width: 100%;
+  padding: 16px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px 0 16px 0;
+  resize: vertical;
+  display: block;
+}
+
+.doluwa{
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 12px 24px;  
+  cursor: pointer;
+  white-space: nowrap;
+  border: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+.doluwa:hover{
+  color: #757575;
+}
+
+#yemi{
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+.footer{
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 64px 0;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  line-height: 1.5;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#bose{
+  font-size: 24px;
+  padding: 1.5px;
+  color: #757575;
+}
+.tolu{
+  padding: 10px;
 }
